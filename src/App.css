@@ -1,0 +1,30 @@
+body {
+  background-color: #252525; /* Replace with your color */
+  margin: 0; /* Removes default white edges */
+}
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525; /* Match body background */
+  font-family: 'Pixelify Sans', sans-serif;
+  color: #FFFFFF;
+}
+.title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+.instructions {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.sprite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
+}
